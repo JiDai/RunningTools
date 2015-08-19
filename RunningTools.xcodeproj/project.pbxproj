@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6973B1F01B827160005556F6 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 6973B1EF1B827160005556F6 /* background.png */; };
+		6973B1F31B8525B0005556F6 /* JDKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6973B1F21B8525B0005556F6 /* JDKeyboardManager.m */; };
 		697A3F221B77DAFF002268A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 697A3F211B77DAFF002268A4 /* main.m */; };
 		697A3F251B77DAFF002268A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 697A3F241B77DAFF002268A4 /* AppDelegate.m */; };
 		697A3F281B77DAFF002268A4 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 697A3F271B77DAFF002268A4 /* FirstViewController.m */; };
@@ -15,6 +17,8 @@
 		697A3F301B77DAFF002268A4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 697A3F2F1B77DAFF002268A4 /* Images.xcassets */; };
 		697A3F331B77DAFF002268A4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 697A3F311B77DAFF002268A4 /* LaunchScreen.xib */; };
 		697A3F3F1B77DAFF002268A4 /* RunningToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 697A3F3E1B77DAFF002268A4 /* RunningToolsTests.m */; };
+		69FD9D341B7D28E200A3ADE7 /* HRZoneView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69FD9D331B7D28E200A3ADE7 /* HRZoneView.xib */; };
+		69FD9D371B7D29D100A3ADE7 /* HRZoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69FD9D361B7D29D100A3ADE7 /* HRZoneView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +32,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6973B1EF1B827160005556F6 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		6973B1F11B8525B0005556F6 /* JDKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JDKeyboardManager.h; path = RunningTools/JDKeyboardManager.h; sourceTree = "<group>"; };
+		6973B1F21B8525B0005556F6 /* JDKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JDKeyboardManager.m; path = RunningTools/JDKeyboardManager.m; sourceTree = "<group>"; };
 		697A3F1C1B77DAFF002268A4 /* RunningTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunningTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		697A3F201B77DAFF002268A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		697A3F211B77DAFF002268A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -43,6 +50,9 @@
 		697A3F381B77DAFF002268A4 /* RunningToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunningToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		697A3F3D1B77DAFF002268A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		697A3F3E1B77DAFF002268A4 /* RunningToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunningToolsTests.m; sourceTree = "<group>"; };
+		69FD9D331B7D28E200A3ADE7 /* HRZoneView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HRZoneView.xib; sourceTree = "<group>"; };
+		69FD9D351B7D29D100A3ADE7 /* HRZoneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRZoneView.h; sourceTree = "<group>"; };
+		69FD9D361B7D29D100A3ADE7 /* HRZoneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRZoneView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +76,8 @@
 		697A3F131B77DAFF002268A4 = {
 			isa = PBXGroup;
 			children = (
+				6973B1F11B8525B0005556F6 /* JDKeyboardManager.h */,
+				6973B1F21B8525B0005556F6 /* JDKeyboardManager.m */,
 				697A3F1E1B77DAFF002268A4 /* RunningTools */,
 				697A3F3B1B77DAFF002268A4 /* RunningToolsTests */,
 				697A3F1D1B77DAFF002268A4 /* Products */,
@@ -84,6 +96,7 @@
 		697A3F1E1B77DAFF002268A4 /* RunningTools */ = {
 			isa = PBXGroup;
 			children = (
+				6973B1EF1B827160005556F6 /* background.png */,
 				697A3F231B77DAFF002268A4 /* AppDelegate.h */,
 				697A3F241B77DAFF002268A4 /* AppDelegate.m */,
 				697A3F261B77DAFF002268A4 /* FirstViewController.h */,
@@ -91,6 +104,9 @@
 				697A3F291B77DAFF002268A4 /* SecondViewController.h */,
 				697A3F2A1B77DAFF002268A4 /* SecondViewController.m */,
 				697A3F2C1B77DAFF002268A4 /* Main.storyboard */,
+				69FD9D331B7D28E200A3ADE7 /* HRZoneView.xib */,
+				69FD9D351B7D29D100A3ADE7 /* HRZoneView.h */,
+				69FD9D361B7D29D100A3ADE7 /* HRZoneView.m */,
 				697A3F2F1B77DAFF002268A4 /* Images.xcassets */,
 				697A3F311B77DAFF002268A4 /* LaunchScreen.xib */,
 				697A3F1F1B77DAFF002268A4 /* Supporting Files */,
@@ -204,6 +220,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69FD9D341B7D28E200A3ADE7 /* HRZoneView.xib in Resources */,
+				6973B1F01B827160005556F6 /* background.png in Resources */,
 				697A3F2E1B77DAFF002268A4 /* Main.storyboard in Resources */,
 				697A3F331B77DAFF002268A4 /* LaunchScreen.xib in Resources */,
 				697A3F301B77DAFF002268A4 /* Images.xcassets in Resources */,
@@ -226,7 +244,9 @@
 			files = (
 				697A3F2B1B77DAFF002268A4 /* SecondViewController.m in Sources */,
 				697A3F251B77DAFF002268A4 /* AppDelegate.m in Sources */,
+				69FD9D371B7D29D100A3ADE7 /* HRZoneView.m in Sources */,
 				697A3F281B77DAFF002268A4 /* FirstViewController.m in Sources */,
+				6973B1F31B8525B0005556F6 /* JDKeyboardManager.m in Sources */,
 				697A3F221B77DAFF002268A4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +442,7 @@
 				697A3F441B77DAFF002268A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		697A3F451B77DAFF002268A4 /* Build configuration list for PBXNativeTarget "RunningToolsTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +451,7 @@
 				697A3F471B77DAFF002268A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
